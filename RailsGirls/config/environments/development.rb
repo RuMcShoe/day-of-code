@@ -75,4 +75,6 @@ Rails.application.configure do
   config.action_controller.raise_on_missing_callback_actions = true
 
   config.hosts << "studious-engine-v6prvqqrr5vqc7gx-3000.app.github.dev"
+
+  config.action_controller.forgery_protection_origin_check = false
 end
